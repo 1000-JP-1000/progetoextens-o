@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        .slider {
+          position: relative;
+          width: 100%;
+          height: 400px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        .slide {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          background-position: center;
+          transition: opacity 1s;
+          opacity: 0;
+        }
+        
+        .slide.active {
+          opacity: 1;
+          transition: opacity 1s;
+        }
+        
+        .bullet {
+          height: 10px;
+          width: 10px;
+          border: 1px solid black;
+          border-radius: 50%;
+          background-color: transparent;
+          margin: 0 5px;
+        }
+        
+        .bullet.active {
+          background-color: black;
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impostos BR x EUA</title>
+    <link rel="stylesheet" href="progeto-extensão.css">
+</head>
+<body> 
+    <header>
+        <h1>Uma Jornada pelos Impostos: BR e EUA</h1>
+        <div class="slider">
+            <div class="slide active" style="background-image: url('/imagens/imagem site interativo 1.jpg')"></div>
+            <div class="slide" style="background-image: url('/imagens/imagem site interativo 2.jpg')"></div>
+            <div class="slide" style="background-image: url('/imagens/imagem site interativo 3.jpg')"></div>
+            <div class="slide" style="background-image: url('/imagens/imagem site interativo 4.jpg')"></div>
+            <div class="slide" style="background-image: url('/imagens/imagem site interativo 5.jpg')"></div>
+            <div class="bullets">
+              <div class="bullet active"></div>
+              <div class="bullet"></div>
+              <div class="bullet"></div>
+              <div class="bullet"></div>
+              <div class="bullet"></div>
+            </div>
+          </div>
+    </header>
+    <main>
+        <div class="welcome">
+    <p>Bem-vindo a uma viagem fascinante pelo mundo dos impostos! Nesta jornada, vamos explorar as semelhanças e diferenças entre os sistemas tributários do Brasil e dos Estados Unidos. Embora possam parecer mundos à parte, você pode se surpreender com o que descobrirá. Preparado? Vamos lá!
+    </div>
+    <h2>Impostos Federais</h2>
+    <p>Nos EUA, os impostos federais incidem principalmente sobre a renda, tanto para indivíduos quanto para empresas. O imposto de renda pessoal é aplicado sobre salários, investimentos ou outras formas de renda que um indivíduo ou família ganha, menos as deduções. O imposto corporativo é cobrado sobre os lucros das empresas.</p>
+    <p>No Brasil, também temos impostos federais sobre a renda, tanto para pessoas físicas quanto jurídicas. As alíquotas que incidem sobre a renda são de 7,5%, 15%, 22,5% e 27,5%. Enquanto no Brasil a alíquota máxima (de 27,5%) incide sobre ganhos acima de R$ 55,9 mil ao ano, nos EUA a alíquota máxima (37%) incidirá sobre ganhos entre US$ 323,9 mil e US$ 647,8 mil, de acordo com o status de declaração.</p>
+    
+    <h2>Impostos Estaduais</h2>
+    <p>Nos EUA, os impostos estaduais são direcionados à compra e propriedade. Os impostos sobre vendas (Sales Taxes) são uma fonte significativa de receita estadual e local.</p>
+    <p>No Brasil, temos o ICMS (Imposto sobre Circulação de Mercadorias e Serviços), que é um imposto estadual e incide sobre a circulação de mercadorias, e sobre a prestação de alguns tipos de serviços.</p>
+    
+    <h2>Impostos sobre a Folha de Pagamento</h2>
+    <p>Nos EUA, os impostos sobre a folha de pagamento são descontados no contracheque sobre os salários e vencimentos dos funcionários para financiar programas de Previdência Social e saúde (Medicare), nos valores de 12,4% e 2,9%, com metade paga pelo empregador.</p>
+    <p>No Brasil, temos contribuições previdenciárias que são descontadas diretamente do salário do trabalhador e recolhidas pelo empregador.</p>
+    
+    <h2>Impostos sobre Compras</h2>
+    <p>Nos EUA, os impostos sobre as compras, conhecidos como Sales Taxes, são uma fonte significativa de receita estadual e local. Este imposto é pago a um órgão regulador pelas vendas de certos bens e serviços. Normalmente, as leis permitem que o vendedor recolha fundos para o imposto do consumidor no ponto de compra.</p>
+    <p>No Brasil, temos o ICMS (Imposto sobre Circulação de Mercadorias e Serviços), que é um imposto estadual e incide sobre a circulação de mercadorias, e sobre a prestação de alguns tipos de serviços.</p>
+</main>
+<footer>
+
+</footer>
+<script src="progeto-de-extensão.js"></script>
+</body>
+</html>
